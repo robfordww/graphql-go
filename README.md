@@ -41,7 +41,7 @@ import (
 
 type query struct{}
 
-func (_ *query) Hello() string { return "Hello, world!" }
+func (q *query) Hello() string { return "Hello, world!" }
 
 func main() {
         s := `
